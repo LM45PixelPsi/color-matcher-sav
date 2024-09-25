@@ -537,7 +537,7 @@
 	<title>Color Matcher - Easily Create and Share Color Combinations</title>
 	<meta
 		name="description"
-		content="Color Matcher is a free and open-source web app designed to help users create color combinations with adjustable proportions. The app allows users to intuitively design color schemes and easily share their creations through a simple URL."
+		content="Color Matcher is a free web app for creating color palettes. Share your creations through a unique URL. Supports HSL, HSV, CMYK, RGB color modes and wavelength visualization."
 	/>
 
 	<!-- Meta SEO -->
@@ -566,7 +566,7 @@
 	<meta name="twitter:title" content="Color Matcher - Easily Create and Share Color Combinations" />
 	<meta
 		name="twitter:description"
-		content="Create harmonious color palettes with Color Matcher, a free online app for designing your projects with ease."
+		content="Color Matcher is a free web app for creating color palettes. Share your creations through a unique URL. Supports HSL, HSV, CMYK, RGB color modes and wavelength visualization."
 	/>
 	<!-- <meta name="twitter:image" content="https://www.color-matcher.app/preview.jpg"/> Replace with actual image URL -->
 </svelte:head>
@@ -887,9 +887,9 @@
 							/>
 
 							<RangeInput
-								name={colorSpaces.hsl.colorsParams[1]}
-								minValue={colorSpaces.hsl.minValue[1]}
-								maxValue={colorSpaces.hsl.maxValue[1]}
+								name={colorSpaces.hsl.colorsParams[2]}
+								minValue={colorSpaces.hsl.minValue[2]}
+								maxValue={colorSpaces.hsl.maxValue[2]}
 								bind:value={hslValueOfCompareColor2.l}
 								trackBg={inputRangeGradient.compareColor2.hsl.lightnessGradient}
 							/>

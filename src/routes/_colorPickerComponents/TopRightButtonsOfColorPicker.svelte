@@ -5,6 +5,8 @@
 
 	import { colorModeSelected } from '../colorPickerStore';
 
+	import { gitHubLink } from '$lib/externalLinks.js';
+
 	// Show other color mode
 
 	$: navShowColorMode = false;
@@ -25,7 +27,7 @@
 	}
 
 	function openGitHub() {
-		window.open(`https://github.com/logos`, '_blank');
+		window.open(gitHubLink, '_blank');
 	}
 
 	const colorSpacesArray = Object.entries(colorSpaces);
