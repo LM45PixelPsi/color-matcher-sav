@@ -35,5 +35,9 @@
 	"dependencies": {
 		"animejs": "^3.2.2",
 		"colord": "^2.9.3"
+	},
+	"engines": {
+		"node": "20.17.0",
+		"npm": "10.8.2"
 	}
 }
