@@ -1,0 +1,13 @@
+name = "color-matcher"
+type = "javascript"
+
+account_id = "ded80a8633348da2a7bd5b030f755646"
+workers_dev = true 
+compatibility_date = "2024-09-25"
+
+[build]
+command = "npm run build"
+
+[env.production]  
+node_version = "20.17.0"  
+npm_version = "10.8.2"
